@@ -2,7 +2,7 @@
 
 ```
 RIS is an opensource MEAN stack application. 
-```
+
 This application serves several purposes:
 
     * Help users learn the MEAN stack

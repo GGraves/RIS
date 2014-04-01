@@ -32,3 +32,5 @@ This application serves several purposes:
     * add button for phone integration
     * add button for email integration
     * add button for linkedin integration
+
+#Guide (under construction)

@@ -1,6 +1,9 @@
 #ignore the database files in the database directory
 
-db/*
+db/*.0
+db/*.ns
+db/*.lock
+db/journal
 
 #prevent any swap files from sneaking into the repo
 
@@ -12,4 +15,12 @@ db/*
 
 #keep images personal
 
-public/imgs/*
+public/imgs/*.jpg
+
+#ignore theme files
+
+public/css/theme
+
+#ignore temp files
+
+temp

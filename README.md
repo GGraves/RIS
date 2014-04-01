@@ -1,7 +1,7 @@
 # Resume Interface System
-
 ```
 RIS is an opensource MEAN stack application. 
+```
 
 This application serves several purposes:
 

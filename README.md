@@ -1,13 +1,13 @@
 # Resume Interface System
 
 ```
-The Resume Interface System is an opensource MEAN stack applicaction. 
+The Resume Interface System is an opensource MEAN stack application. 
 RIS was developed to help people implement a highly customizable resume website.
 This application serves several purposes:
 
-- Help Users Learn the MEAN stack
-- Provide a skeleton layout for developers to modify
-- Implement a project that shows working knowledge of industry standard frameworks
+    * Help Users Learn the MEAN stack
+    * Provide a skeleton layout for developers to modify
+    * Implement a project that shows working knowledge of industry standard frameworks
 
 ```
 

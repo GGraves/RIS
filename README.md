@@ -4,9 +4,9 @@ RIS is an opensource MEAN stack application.
 ```
 
 - This application serves several purposes:
-    * Help users learn the MEAN stack
-    * Provide a skeleton layout for developers to modify
-    * Implement a project that shows working knowledge of industry standard frameworks
+    * Help users learn the **MEAN** stack.
+    * Provide a **skeleton layout** for developers to modify.
+    * Implement a project that shows **working knowledge** of **industry standard** frameworks
 
 #TODO (by order of importance):
 1. Add random photo selection to the homepage of the app, to display a user's photography.

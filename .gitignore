@@ -1,0 +1,15 @@
+#ignore the database files in the database directory
+
+db/*
+
+#prevent any swap files from sneaking into the repo
+
+*.swp
+
+#avoid saving any Mac files
+
+.DS_Store
+
+#keep images personal
+
+public/imgs/*

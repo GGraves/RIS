@@ -1,6 +1,6 @@
-angular.module('about', []).controller(
+angular.module( 'about', []).controller(
 'AboutController', 
-function($scope) 
+function( $scope) 
 {
 	$scope.temp = 'About Me!';	
 });

@@ -1,6 +1,16 @@
-angular.module('home', []).controller(
+angular.module( 'home', []).controller(
 'HomeController', 
-function($scope) 
+function( $scope, $http) 
 {
-	$scope.temp = 'Welcome Home!';	
+	$http.get( '/api/image')
+    .success(
+    function( data)
+    {
+        $scope.image = data;
+    })
+    .error(
+    function( data)
+    {
+        console.log( "Error" + data); 
+    });
 });

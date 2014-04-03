@@ -1,6 +1,6 @@
-angular.module('comment', []).controller(
+angular.module( 'comment', []).controller(
 'CommentController', 
-function($scope) 
+function( $scope) 
 {
 	$scope.temp = 'The place to leave comments!';	
 });

@@ -1,6 +1,6 @@
-angular.module('contact', []).controller(
+angular.module( 'contact', []).controller(
 'ContactController', 
-function($scope) 
+function( $scope) 
 {
 	$scope.temp = 'You can contact me "HERE"!';	
 });

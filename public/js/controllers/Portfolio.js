@@ -1,6 +1,6 @@
-angular.module('portfolio', []).controller(
+angular.module( 'portfolio', []).controller(
 'PortfolioController', 
-function($scope) 
+function(   $scope) 
 {
 	$scope.temp = 'Here is a catalog of projects I am excited about!';	
 });

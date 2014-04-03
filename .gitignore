@@ -24,3 +24,9 @@ public/css/theme
 #ignore temp files
 
 temp
+
+#ignore the node modules (users should have this locally)
+node_modules/
+
+#ignore the bower modules (users should have this locally)
+public/libs/

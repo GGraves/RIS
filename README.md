@@ -10,7 +10,7 @@ RIS is an opensource MEAN stack application.
 
 #TODO (by order of importance):
 1. Add random photo selection to the homepage of the app, to display a user's photography.
-    * Create node api route.
+    * ~~Create node api route.~~
     * Modify the angular Home page controller.
     * Update css to make the photo part of the background for the main section of data presentation.
     * Update css to allow for paginated comments once implemented.

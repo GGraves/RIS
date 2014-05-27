@@ -1,4 +1,4 @@
-# Resume Interface System
+#Resume Interface System
 ```
 RIS is an opensource MEAN stack application. 
 ```
@@ -7,29 +7,85 @@ RIS is an opensource MEAN stack application.
     * Help users learn the **MEAN** stack.
     * Provide a **skeleton layout** for developers to modify.
     * Implement a project that shows **working knowledge** of **industry standard** frameworks.
+    * Leverages Trello's API for practice with **external software integration**.
 
 #TODO (by order of importance):
 1. Add random photo selection to the homepage of the app, to display a user's photography.
     * ~~Create node api route.~~
     * ~~Modify the angular Home page controller.~~
-    * Update css to make the photo part of the background for the main section of data presentation.
-    * Update css to allow for paginated comments once implemented.
-2. Implement comment functionality so that visitors of a user's resume can leave feedback for future visitors to view.
+2. Work on implementation of Tree UI.
+    * Fix layout for the index page, removing any unnecessary elements.
+    * Remove unnecessary pages from application, should only have the following:
+        404
+        HOME
+    * Add div-branch elements on HOME page for each of the following:
+        ABOUT
+        PORTFOLIO
+        COMMENT
+        CONTACT
+3. Implement comment functionality so that visitors of a user's resume can leave feedback for future visitors to view.
     * Create node api route: "create"
     * Add Trello API integration for pushing fresh comments to trello interface.
     * Add comment aggregation to Homepage route in node controller.
-3. Update the css layout for About page to allow for quick implementation.
-    * Image header for user.
-    * Div element containing user determined summary.
-4. Update portfolio page.
-    * Image header for user's project.
-    * Div element for the summary of a user's project.  
-    * Paginate.
-5. Update the css layout for the Contact page so that a viewer can access needed info quickly.
+4. Update the css layout for Tree branchs.
+    * Image header for content.
+    * Element containing user determined information.
+6. Specifics for Contact branch.
     * Add button for phone integration.
     * Add button for email integration.
     * Add button for linkedin integration.
 
-#Guide (under construction)
+#Guide:
+```
+Local Development Environment
+```
 
-Coming Soon.
+- Several different software are needed prior to local execution:
+    1. Install NVM ( on a mac I use [brew.sh] to do this)
+        ```
+        brew install nvm
+        ```
+
+        Add these lines to your .bashrc
+        ```
+        source $(brew --prefix nvm)/nvm.sh
+        export NVM_DIR=~/.nvm
+        ```
+    2. Use NVM to install the current version of node. ( check [nodejs.org] for the current version)
+        ```
+        nvm install **"current version"**
+        ```
+    3. Install NPM
+        ```
+        brew install npm
+        ```  
+    4. Install Nodemon
+        ```
+        npm install -g nodemon
+        ```
+    5. Install Bower
+        ```
+        npm install -g bower 
+        ```
+    
+- Once you have installed the aformentioned software:
+    1. [https://help.github.com/articles/fork-a-repo] 
+        or if you know how to fork 
+       [https://github.com/VistaDorada/RIS/fork]
+    2. After cloning a local copy of your forked repo, navigate to the project directory:
+        ```
+        npm install
+        bower install
+        ```
+    3. Run your server locally
+        ```
+        nodemon server.js
+        ```
+    4. **START HACKING!** 
+
+```
+Remote Server Environment
+```
+
+- Coming Soon
+

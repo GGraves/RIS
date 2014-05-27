@@ -40,47 +40,47 @@ RIS is an opensource MEAN stack application.
 Local Development Environment
 ```
 
-- Several different software are needed prior to local execution:
-    1. Install NVM ( on a mac I use [brew.sh] to do this)
-        ```
-        brew install nvm
-        ```
+Several different software are needed prior to local execution:
+    1. Install NVM, on a mac I use [brew.sh]
+    ```
+    brew install nvm
+    ```
 
-        Add these lines to your .bashrc
-        ```
-        source $(brew --prefix nvm)/nvm.sh
-        export NVM_DIR=~/.nvm
-        ```
-    2. Use NVM to install the current version of node. ( check [nodejs.org] for the current version)
-        ```
-        nvm install **"current version"**
-        ```
+    Add these lines to your .bashrc
+    ```
+    source $(brew --prefix nvm)/nvm.sh
+    export NVM_DIR=~/.nvm
+    ```
+    2. Use NVM to install the current version of node. Check [nodejs.org] for current version
+    ```
+    nvm install **current version**
+    ```
     3. Install NPM
-        ```
-        brew install npm
-        ```  
+    ```
+    brew install npm
+    ```  
     4. Install Nodemon
-        ```
-        npm install -g nodemon
-        ```
+    ```
+    npm install -g nodemon
+    ```
     5. Install Bower
-        ```
-        npm install -g bower 
-        ```
+    ```
+    npm install -g bower 
+    ```
     
-- Once you have installed the aformentioned software:
+Once you have installed the aformentioned software:
     1. [https://help.github.com/articles/fork-a-repo] 
-        or if you know how to fork 
-       [https://github.com/VistaDorada/RIS/fork]
+    or if you know how to fork 
+    [https://github.com/VistaDorada/RIS/fork]
     2. After cloning a local copy of your forked repo, navigate to the project directory:
-        ```
-        npm install
-        bower install
-        ```
+    ```
+    npm install
+    bower install
+    ```
     3. Run your server locally
-        ```
-        nodemon server.js
-        ```
+    ```
+    nodemon server.js
+    ```
     4. **START HACKING!** 
 
 ```

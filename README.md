@@ -16,13 +16,13 @@ RIS is an opensource MEAN stack application.
 2. Work on implementation of Tree UI.
     * Fix layout for the index page, removing any unnecessary elements.
     * Remove unnecessary pages from application, should only have the following:
-        404
-        HOME
+        * 404
+        * HOME
     * Add div-branch elements on HOME page for each of the following:
-        ABOUT
-        PORTFOLIO
-        COMMENT
-        CONTACT
+        * ABOUT
+        * PORTFOLIO
+        * COMMENT
+        * CONTACT
 3. Implement comment functionality so that visitors of a user's resume can leave feedback for future visitors to view.
     * Create node api route: "create"
     * Add Trello API integration for pushing fresh comments to trello interface.

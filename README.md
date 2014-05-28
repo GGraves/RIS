@@ -65,7 +65,7 @@ RIS is an opensource MEAN stack application.
     ```
     
 2. Once you have installed the aformentioned software:
-    * [How to fork][fork] or if you know how to fork, [Fork Me][myfork].
+    * [How to fork][fork], or if you know how to fork, [Fork Me][myfork].
     * After cloning a local copy of your forked repo, navigate to the project directory:
     ```
     npm install

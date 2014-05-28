@@ -35,13 +35,10 @@ RIS is an opensource MEAN stack application.
     * Add button for email integration.
     * Add button for linkedin integration.
 
-#Guide:
-```
-Local Development Environment
-```
+#Local Environment Guide:
 
 1. Several different software are needed prior to local execution:
-    * Install NVM, on a mac I use [brew.sh]
+    * Install NVM, on a mac I use [www.brew.sh]
     ```
     brew install nvm
     ```
@@ -50,7 +47,7 @@ Local Development Environment
     source $(brew --prefix nvm)/nvm.sh
     export NVM_DIR=~/.nvm
     ```
-    * Use NVM to install the current version of node. Check [nodejs.org] for current version
+    * Use NVM to install the current version of node. Check [www.nodejs.org] for current version
     ```
     nvm install **current version**
     ```
@@ -82,9 +79,7 @@ Local Development Environment
     ```
     * **START HACKING!** 
 
-```
-Remote Server Environment
-```
+#Remote Environment Guide:
 
 1. Coming Soon
 

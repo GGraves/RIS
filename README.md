@@ -38,7 +38,7 @@ RIS is an opensource MEAN stack application.
 #Local Environment Guide:
 
 1. Several different software are needed prior to local execution:
-    * Install NVM, on a mac I use [www.brew.sh]
+    * Install NVM, on a mac I use [Homebrew][brew].
     ```
     brew install nvm
     ```
@@ -47,7 +47,7 @@ RIS is an opensource MEAN stack application.
     source $(brew --prefix nvm)/nvm.sh
     export NVM_DIR=~/.nvm
     ```
-    * Use NVM to install the current version of node. Check [www.nodejs.org] for current version
+    * Use NVM to install the current version of node. Check [current version][node].
     ```
     nvm install **current version**
     ```
@@ -65,9 +65,7 @@ RIS is an opensource MEAN stack application.
     ```
     
 2. Once you have installed the aformentioned software:
-    * [https://help.github.com/articles/fork-a-repo] 
-    or if you know how to fork 
-    [https://github.com/VistaDorada/RIS/fork]
+    * [How to fork][fork] or if you know how to fork, [Fork Me][myfork].
     * After cloning a local copy of your forked repo, navigate to the project directory:
     ```
     npm install
@@ -83,3 +81,7 @@ RIS is an opensource MEAN stack application.
 
 1. Coming Soon
 
+[brew]:http://brew.sh
+[node]:http://nodejs.org
+[fork]:https://help.github.com/articles/fork-a-repo
+[myfork]:https://github.com/VistaDorada/RIS/fork

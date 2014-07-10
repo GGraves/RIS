@@ -9,31 +9,15 @@ RIS is an opensource MEAN stack application.
     * Implement a project that shows **working knowledge** of **industry standard** frameworks.
     * Leverages Trello's API for practice with **external software integration**.
 
-#TODO (by order of importance):
-1. Add random photo selection to the homepage of the app, to display a user's photography.
-    * ~~Create node api route.~~
-    * ~~Modify the angular Home page controller.~~
-2. Work on implementation of Tree UI.
-    * Fix layout for the index page, removing any unnecessary elements.
-    * Remove unnecessary pages from application, should only have the following:
-        * 404
-        * HOME
-    * Add div-branch elements on HOME page for each of the following:
-        * ABOUT
-        * PORTFOLIO
-        * COMMENT
-        * CONTACT
-3. Implement comment functionality so that visitors of a user's resume can leave feedback for future visitors to view.
-    * Create node api route: "create"
-    * Add Trello API integration for pushing fresh comments to trello interface.
-    * Add comment aggregation to Homepage route in node controller.
-4. Update the css layout for Tree branchs.
-    * Image header for content.
-    * Element containing user determined information.
-6. Specifics for Contact branch.
-    * Add button for phone integration.
-    * Add button for email integration.
-    * Add button for linkedin integration.
+#TODO:
+1. Add a how-to guide for integrating Trello.
+
+2. Add the Remote Environment Guide for Nodejitsu usage.
+
+3. Clean and refine Local Environment Guide.
+
+4. Update Blog.
+
 
 #Local Environment Guide:
 

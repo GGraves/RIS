@@ -1,5 +1,202 @@
-<div class="jumbotron-custom text-center">
-	<h1>Home</h1>
+<div class="tree">
+    
+    <div class="branch">
+        <div class="title">
+            <h1>About Me</h1>
+            <div class="branch-break">
+                <hr>
+            </div>
+        </div>
+        <div class="body">
+            <div class="summary">
+                <h4>
+                    This is where you would say a little about yourself for your future readers.
+                </h4>
+            </div>
+        </div>
+    </div>
+    
+    <div class="branch">
+        <div class="title">
+            <h1>Portfolio</h1> 
+            <div class="branch-break">
+                <hr>
+            </div>
+        </div>
+        <div class="body">
+            <div class="summary">
+                <h4>
+                    This is where you would breifly describe the breadth of your projects. 
+                </h4>
+            </div>
+            
+            <div class="branch">
+                <div class="title">
+                    <h1>Project 1</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4>
+                            Information about the specific project presented here. 
+                        </h4>
+                    </div>
+                </div>
+            </div>
 
-	<p>{{ image }}</p>
+            <div class="branch">
+                <div class="title">
+                    <h1>Project 1</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4>
+                            Information about the specific project presented here. 
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="branch">
+                <div class="title">
+                    <h1>Project 1</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4>
+                            Information about the specific project presented here. 
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="branch">
+                <div class="title">
+                    <h1>Project 1</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4>
+                            Information about the specific project presented here. 
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="branch">
+        <div class="title">
+            <h1>Comment</h1> 
+            <div class="branch-break">
+                <hr>
+            </div>
+        </div>
+        <div class="body">
+            <div class="summary">
+                <h4>
+                    This is where you kindly and creatively ask for the users input or feedback.
+                </h4>
+            </div>
+            <div class="branch">
+                <div class="title">
+                    <h1>Leave A Comment</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4 class="comment-count">
+                            Characters left: 300
+                        </h4>
+                        <p></p>
+                        <form name="commentForm" ng-submit="submitForm(commentForm.$valid)" novalidate>
+                            <textarea   type="text" 
+                                        rows="4" 
+                                        class="form-control input-lg text-center comment" 
+                                        maxlength="300"
+                                        placeholder="Comment" 
+                                        ng-model="formData.comment"
+                                        ng-required="true">
+                            </textarea>  
+                            <p></p>
+                            <input  type="text" 
+                                    class="form-control input-lg text-center" 
+                                    placeholder="First Name" 
+                                    ng-model="formData.firstn"
+                                    required>
+                            <p></p>
+                            <input  type="text" 
+                                    class="form-control input-lg text-center" 
+                                    placeholder="Last Name" 
+                                    ng-model="formData.lastn"
+                                    required>
+                            <p></p>
+                            <input  type="email" 
+                                    class="form-control input-lg text-center" 
+                                    placeholder="Email" 
+                                    ng-model="formData.email" 
+                                    required>
+                            <p></p>
+                            <button type="submit" 
+                                    class="btn btn-primary btn-lg" 
+                                    ng-click="submitComment()" 
+                                    ng-disabled="commentForm.$invalid">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="branch">
+                <div class="title">
+                    <h1>Previous Comments</h1> 
+                    <div class="branch-break">
+                        <hr>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="summary">
+                        <h4>
+                            <div ng-repeat="comment in comments">
+                                {{ comment.comment }}
+                                <p></p>
+                                {{ comment.firstn }} {{ comment.lastn }}
+                                <p></p>
+                                <p></p>
+                            </div>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="branch">
+        <div class="title">
+            <h1>Contact</h1> 
+            <div class="branch-break">
+                <hr>
+            </div>
+        </div>
+        <div class="body">
+            <div class="summary">
+                <h4>
+                    Here is where you would list all of your contact applications and social media: linkedin, twitter, facebook, email 
+                </h4>
+            </div>
+        </div>
+    </div>
 </div>

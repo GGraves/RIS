@@ -1,1 +1,1 @@
-angular.module('RIS', ['ngRoute', 'appRoutes', 'home', 'about', 'portfolio', 'comment', 'contact']);
+angular.module( 'RIS', [ 'ngRoute', 'appRoutes', 'home', '404', 'index']);

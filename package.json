@@ -1,11 +1,19 @@
 {
     "name": "RIS",
     "main": "server.js",
-    "dependencies": {
+    "dependencies": 
+    {
         "express": "~4.0.0",
         "morgan": "~1.0.0",
         "body-parser": "~1.0.0",
         "method-override": "~1.0.0",
-        "mongoose": "~3.8.8"
+        "mongoose": "~3.8.8",
+        "requestify": "~0.1.0"
+    },
+    "version": "0.0.0",
+    "engines": 
+    {
+        "node": "0.10.x"
     }
+
 }

@@ -13,14 +13,6 @@ db/journal
 
 .DS_Store
 
-#keep images personal
-
-public/imgs/*.jpg
-
-#ignore theme files
-
-public/css/theme
-
 #ignore temp files
 
 temp

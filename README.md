@@ -10,13 +10,16 @@ RIS is an opensource MEAN stack application.
     * Leverages Trello's API for practice with **external software integration**.
 
 #TODO:
-1. Add a how-to guide for integrating Trello.
 
-2. Add the Remote Environment Guide for Nodejitsu usage.
+1. Link TreeUI externally and remove jquery within angular controller.
 
-3. Clean and refine Local Environment Guide.
+2. Add a how-to guide for integrating Trello.
 
-4. Update Blog.
+3. Add the Remote Environment Guide for Nodejitsu usage.
+
+4. Clean and refine Local Environment Guide.
+
+5. Update Blog.
 
 
 #Local Environment Guide:

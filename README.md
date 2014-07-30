@@ -21,6 +21,8 @@ RIS is an opensource MEAN stack application.
 
 5. Update Blog.
 
+6. Document code.
+
 
 #Local Environment Guide:
 
